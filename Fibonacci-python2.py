@@ -15,9 +15,8 @@ while sequencia_fibonacci [-1] < numero:
     sequencia_fibonacci.append(sequencia_fibonacci[-1] + sequencia_fibonacci[-2])
 
 if numero in sequencia_fibonacci:
-    print ("{numero} faz parte da sequencia de fibonacci")
-
+    print (f"{numero} faz parte da sequencia de fibonacci")
 else:
-    print("{numero} não faz parte da sequencia de fibonacci")
+    print(f"{numero} não faz parte da sequencia de fibonacci")
  
      
